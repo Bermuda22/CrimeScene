@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0e0f12">
+  <meta name="description" content="버뮤다 팬메이드 웹 추리 게임 — 백작의 마지막 한 입 (할로윈 특집)">
+  <title>버뮤다 크라임씬 — 백작의 마지막 한 입</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="snow" aria-hidden="true"></div>
+  <header class="topbar" id="topbar" hidden>
+    <div class="topbar-title">
+      <span class="caseno" id="caseNo"></span>
+      <span class="casetitle" id="caseTitle"></span>
+    </div>
+    <ol class="steps" id="steps" aria-label="수사 단계"></ol>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <nav class="tabbar" id="tabbar" hidden aria-label="메뉴"></nav>
+  <button class="sound-btn" id="soundBtn" type="button" hidden></button>
+  <div id="modalRoot"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
